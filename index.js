@@ -34,10 +34,10 @@ var today = [];
 var work = [];
 
 function arrayCheck(req, res, next) {
-    if (today.length > 20) {
+    if (today.length > 150) {
         today = [];
     }
-    if (work.length > 20) {
+    if (work.length > 150) {
         today = [];
     }
     next();
